@@ -3,8 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'sumanthrakasi/ci-cd-demo-app'
-        // Placeholder until Phase 7 provisions the real EC2 deploy target.
-        EC2_HOST = 'REPLACE_ME_AFTER_PHASE_7'
+        EC2_HOST = '100.48.113.130'
     }
 
     stages {

@@ -1,0 +1,10 @@
+services:
+  app:
+    build: ./app
+    environment:
+      - APP_VERSION=local-dev
+      - PORT=3000
+    ports:
+      - "3000:3000"
+    # We'll add an nginx service here in Phase 8, once the reverse proxy
+    # and SSL config exist. Keeping compose scoped to what's real for now.

@@ -1,0 +1,17 @@
+{
+  "name": "ci-cd-demo-app",
+  "version": "1.0.0",
+  "description": "Small Express app used to demonstrate a Jenkins/Docker/Nginx CI/CD pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --colors"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
